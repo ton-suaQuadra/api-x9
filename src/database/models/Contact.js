@@ -15,7 +15,7 @@ class Contact extends Model {
     }
 
     static associate(models) {
-        this.belongsTo(models.Contact)
+        this.belongsTo(models.Advertiser)
     }
 }
 

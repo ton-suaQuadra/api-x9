@@ -19,7 +19,7 @@ class Address extends Model {
     }
 
     static associate(models) {
-        this.belongsToMany(models.Property_address, {
+        this.belongsToMany(models.Property, {
           foreignKey: "fk_address",
           through: "Property_address"
         });

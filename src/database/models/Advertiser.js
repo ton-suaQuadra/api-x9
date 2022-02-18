@@ -14,7 +14,7 @@ class Advertiser extends Model {
     }
 
     static associate(models) {
-        this.hasMany(models.Contact, {
+        this.hasMany(models.Property, {
             foreignKey: "fk_advertiser"
         })
     }

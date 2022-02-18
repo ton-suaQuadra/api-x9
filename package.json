@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon src/server.js",
     "migrate": "sequelize db:migrate",
-    "db:create": "sequelize db:create"
+    "dbCreate": "sequelize db:create"
   },
   "author": "SuaQuadra",
   "license": "ISC",

@@ -21,7 +21,7 @@ class Property extends Model {
   }
 
   static associate(models) {
-    this.belongsTo(models.Contact);
+    this.belongsTo(models.Advertiser);
   }
 
   static associate(models) {
